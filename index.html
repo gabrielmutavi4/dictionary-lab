@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary-expo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Smart Dictionary</h1>
+
+  <form id="search-form">
+    <input 
+      type="text" 
+      id="search-input" 
+      placeholder="Enter a word" 
+      aria-label="Search word"
+    >
+    <button type="submit">Search</button>
+  </form>
+
+  <div id="error-message" class="hidden"></div>
+
+  <section id="result">
+    <h2 id="word"></h2>
+    <p id="phonetic"></p>
+    <p id="part-of-speech"></p>
+    <p id="definition"></p>
+    <p id="example"></p>
+    <p id="synonyms"></p>
+    <audio id="audio" controls></audio>
+  </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
