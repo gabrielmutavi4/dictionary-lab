@@ -1,7 +1,6 @@
 const form = document.getElementById("search-form");
     const input = document.getElementById("search-input");
     const errorDiv = document.getElementById("error-message");
-
     const wordEl = document.getElementById("word");
     const phoneticEl = document.getElementById("phonetic");
     const posEl = document.getElementById("part-of-speech");
